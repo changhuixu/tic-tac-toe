@@ -1,0 +1,20 @@
+<div>
+  <div class="status">
+    {{ statusMessage }}
+  </div>
+  <div class="board">
+    <div *ngFor="let row of [0, 1, 2]" class="board-row">
+      <app-cell
+        *ngFor="let col of [0, 1, 2]"
+        [row]="row"
+        [col]="col"
+        [piece]="board[row][col]"
+        (click)="move(row, col)"
+      ></app-cell>
+    </div>
+  </div>
+  <br />
+  <button type="button" *ngIf="gameOver" class="new-game" (click)="newGame()">
+    New Game
+  </button>
+</div>

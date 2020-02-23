@@ -1,0 +1,26 @@
+.cell {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  font-size: 5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.cell:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.cell.x {
+  color: #e20707;
+}
+.cell.o {
+  color: #3295f8;
+}
