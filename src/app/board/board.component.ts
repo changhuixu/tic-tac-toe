@@ -36,6 +36,7 @@ export class BoardComponent implements OnInit {
         this.statusMessage = `It's a Draw.`;
         this.gameOver = true;
       } else if (this.isWin()) {
+        this.hooray();
         this.statusMessage = `Player ${this.currentPlayer} win!`;
         this.gameOver = true;
       } else {
@@ -84,5 +85,10 @@ export class BoardComponent implements OnInit {
     }
 
     return false;
+  }
+
+  private hooray() {
+    var audio = new Audio('assets/KidsCheering.mp3');
+    audio.play();
   }
 }
