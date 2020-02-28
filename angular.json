@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-tic-tac-toe": {
+    "tic-tac-toe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -40,13 +40,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-tic-tac-toe",
+            "outputPath": "dist/tic-tac-toe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": ["src/favicon.ico", "src/assets"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/manifest.webmanifest"
+            ],
             "styles": ["src/styles.css"],
             "scripts": []
           },
@@ -77,31 +81,33 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-tic-tac-toe:build"
+            "browserTarget": "tic-tac-toe:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-tic-tac-toe:build:production"
+              "browserTarget": "tic-tac-toe:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-tic-tac-toe:build"
+            "browserTarget": "tic-tac-toe:build"
           }
         }
       }
     }
   },
-  "defaultProject": "angular-tic-tac-toe",
+  "defaultProject": "tic-tac-toe",
   "cli": {
     "analytics": "6bfac1d9-6da4-4c9f-a5aa-598c03784947"
   }
