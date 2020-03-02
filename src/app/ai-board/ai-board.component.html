@@ -1,0 +1,48 @@
+<div>
+  <section style="text-align: center;">
+    <div style="margin: 0.5rem;">
+      <input
+        type="checkbox"
+        id="player"
+        name="player"
+        #c
+        (click)="choosePlayer(c.checked)"
+      />
+      <label for="player" style="font-size: 1.25rem;">
+        I want play first.
+      </label>
+    </div>
+    <div style="margin: 0.5rem;">
+      <input
+        type="checkbox"
+        id="easy"
+        name="easy"
+        #easy
+        checked
+        (click)="chooseLevel(easy.checked)"
+      />
+      <label for="easy" style="font-size: 1.25rem;">
+        Easy
+      </label>
+    </div>
+    <button type="button" class="new-game" (click)="newGame()">
+      Start a New Game
+    </button>
+  </section>
+  <section *ngIf="board">
+    <div class="status">
+      {{ statusMessage }}
+    </div>
+    <div class="board">
+      <div *ngFor="let row of [0, 1, 2]" class="board-row">
+        <app-cell
+          *ngFor="let col of [0, 1, 2]"
+          [row]="row"
+          [col]="col"
+          [piece]="board[row][col]"
+          (click)="move(row, col)"
+        ></app-cell>
+      </div>
+    </div>
+  </section>
+</div>
