@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Piece } from 'src/app/models/piece';
 import { BestMove } from 'src/app/models/best-move';
+import { Cell } from 'src/app/models/cell';
 
 @Injectable({
   providedIn: 'root'
@@ -22,21 +23,20 @@ export class TicTacToeService {
       return new BestMove(-1, -1, this.evaluate(state));
     }
 
-    for (let row = 0; row < 3; row++) {
-      for (let col = 0; col < 3; col++) {
-        if (state[row][col] === Piece.EMPTY) {
-          state[row][col] = isMaximizer ? this.maximizer : this.minimizer;
-          const best = this.minimax(state, depth - 1, !isMaximizer);
-          state[row][col] = Piece.EMPTY;
+    const emptyCells = this.shuffle(this.getEmptyCells(state));
+    for (let { row, col } of emptyCells) {
+      if (state[row][col] === Piece.EMPTY) {
+        state[row][col] = isMaximizer ? this.maximizer : this.minimizer;
+        const best = this.minimax(state, depth - 1, !isMaximizer);
+        state[row][col] = Piece.EMPTY;
 
-          if (isMaximizer) {
-            if (best.score > bestMove.score) {
-              bestMove = new BestMove(row, col, best.score);
-            }
-          } else {
-            if (best.score < bestMove.score) {
-              bestMove = new BestMove(row, col, best.score);
-            }
+        if (isMaximizer) {
+          if (best.score > bestMove.score) {
+            bestMove = new BestMove(row, col, best.score);
+          }
+        } else {
+          if (best.score < bestMove.score) {
+            bestMove = new BestMove(row, col, best.score);
           }
         }
       }
@@ -49,16 +49,19 @@ export class TicTacToeService {
     return this.isWin(state) || this.isDraw(state);
   }
 
-  countOfEmptyCells(state: Piece[][]): number {
-    let count = 0;
+  getEmptyCells(state: Piece[][]): Cell[] {
+    const emptyCells = [];
     for (let i = 0; i < state.length; i++) {
       for (let j = 0; j < state[i].length; j++) {
         if (state[i][j] === Piece.EMPTY) {
-          count++;
+          emptyCells.push(new Cell(i, j));
         }
       }
     }
-    return count;
+    return emptyCells;
+  }
+  countOfEmptyCells(state: Piece[][]): number {
+    return this.getEmptyCells(state).length;
   }
 
   isDraw(state: Piece[][]): boolean {
@@ -131,5 +134,22 @@ export class TicTacToeService {
       }
     }
     return 0;
+  }
+
+  private shuffle(array: any[]) {
+    let currentIndex = array.length;
+
+    while (currentIndex !== 0) {
+      // Pick a remaining element...
+      let randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      // And swap it with the current element.
+      let temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
   }
 }

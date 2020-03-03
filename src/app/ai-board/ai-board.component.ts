@@ -9,7 +9,7 @@ import { Piece } from 'src/app/models/piece';
 })
 export class AiBoardComponent implements OnInit {
   private currentPlayer: Piece;
-  private player: Piece = Piece.O;
+  private player: Piece = Piece.X;
   gameOver: boolean;
   board: Piece[][];
   statusMessage: string;
@@ -68,7 +68,7 @@ export class AiBoardComponent implements OnInit {
     } else {
       const bestMove = this.svc.minimax(
         this.board,
-        this.aiLevelEasy ? 1 : emptyCells,
+        this.aiLevelEasy && emptyCells > 5 ? 5 : emptyCells,
         this.player !== Piece.X
       );
       this.move(bestMove.row, bestMove.col);
