@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1583203788889,
+  "timestamp": 1583642914663,
   "index": "/tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -34,7 +34,11 @@
         "/tic-tac-toe/assets/icons/icon-384x384.png",
         "/tic-tac-toe/assets/icons/icon-512x512.png",
         "/tic-tac-toe/assets/icons/icon-72x72.png",
-        "/tic-tac-toe/assets/icons/icon-96x96.png"
+        "/tic-tac-toe/assets/icons/icon-96x96.png",
+        "/tic-tac-toe/assets/touch-icon-ipad-retina.png",
+        "/tic-tac-toe/assets/touch-icon-ipad.png",
+        "/tic-tac-toe/assets/touch-icon-iphone-retina.png",
+        "/tic-tac-toe/assets/touch-icon-iphone.png"
       ],
       "patterns": []
     }
@@ -50,8 +54,12 @@
     "/tic-tac-toe/assets/icons/icon-512x512.png": "e65a254311c18e11d45eed2e6846a5b659316c94",
     "/tic-tac-toe/assets/icons/icon-72x72.png": "74cfb2e847cb3fc42340e9de700226375bad79ae",
     "/tic-tac-toe/assets/icons/icon-96x96.png": "f0b74554e83a99be725fb3ee018db6288c0e58e3",
+    "/tic-tac-toe/assets/touch-icon-ipad-retina.png": "2c7511946909c23b3f6867b404e32d8b3e9dd71f",
+    "/tic-tac-toe/assets/touch-icon-ipad.png": "2ce230ee8dd82934ab87573044bf5f1e3b9aea06",
+    "/tic-tac-toe/assets/touch-icon-iphone-retina.png": "6c4cb6a554cd47079450fb6b86d56a5097199a90",
+    "/tic-tac-toe/assets/touch-icon-iphone.png": "202f4c6870d26aa503421ccf176fcd9deb9e2800",
     "/tic-tac-toe/favicon.ico": "0e8d929f2742d5c17cedca7f23358794f30be9b4",
-    "/tic-tac-toe/index.html": "4766f27fefa901ad5bb606a11d1b1cb3c3a5683b",
+    "/tic-tac-toe/index.html": "5caa33ff3fe161b655b87e5b71e2eea9aab00863",
     "/tic-tac-toe/main-es2015.8e2a2648d30ec7ca1a34.js": "c4463d3ef0cdc774b2e159ccb9c5cf0f575663ee",
     "/tic-tac-toe/main-es5.8e2a2648d30ec7ca1a34.js": "97f94db069f2ad874c94848975e65e1786a1a7c2",
     "/tic-tac-toe/manifest.webmanifest": "2e2f8086aeda5578eb98e8612693c262d312b633",
