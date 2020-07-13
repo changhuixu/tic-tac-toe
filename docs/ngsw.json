@@ -1,23 +1,26 @@
 {
   "configVersion": 1,
-  "timestamp": 1587522106547,
+  "timestamp": 1594650399784,
   "index": "/tic-tac-toe/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/tic-tac-toe/favicon.ico",
         "/tic-tac-toe/index.html",
-        "/tic-tac-toe/main-es2015.bc1426bbaf1dcc1ba3c8.js",
-        "/tic-tac-toe/main-es5.bc1426bbaf1dcc1ba3c8.js",
+        "/tic-tac-toe/main-es2015.9a7c705881050180f3b1.js",
+        "/tic-tac-toe/main-es5.9a7c705881050180f3b1.js",
         "/tic-tac-toe/manifest.webmanifest",
-        "/tic-tac-toe/polyfills-es2015.690002c25ea8557bb4b0.js",
-        "/tic-tac-toe/polyfills-es5.9e286f6d9247438cbb02.js",
-        "/tic-tac-toe/runtime-es2015.1eba213af0b233498d9d.js",
-        "/tic-tac-toe/runtime-es5.1eba213af0b233498d9d.js",
-        "/tic-tac-toe/styles.3ff695c00d717f2d2a11.css"
+        "/tic-tac-toe/polyfills-es2015.95bb65e853d2781ac3bd.js",
+        "/tic-tac-toe/polyfills-es5.341d48ffc88eaeae911d.js",
+        "/tic-tac-toe/runtime-es2015.409e6590615fb48d139f.js",
+        "/tic-tac-toe/runtime-es5.409e6590615fb48d139f.js",
+        "/tic-tac-toe/styles.280e991c5992f8630bc9.css"
       ],
       "patterns": []
     },
@@ -25,6 +28,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/tic-tac-toe/assets/KidsCheering.mp3",
         "/tic-tac-toe/assets/icons/icon-128x128.png",
@@ -59,15 +65,15 @@
     "/tic-tac-toe/assets/touch-icon-iphone-retina.png": "6c4cb6a554cd47079450fb6b86d56a5097199a90",
     "/tic-tac-toe/assets/touch-icon-iphone.png": "202f4c6870d26aa503421ccf176fcd9deb9e2800",
     "/tic-tac-toe/favicon.ico": "0e8d929f2742d5c17cedca7f23358794f30be9b4",
-    "/tic-tac-toe/index.html": "ff5e66d35223bdcfab4de3a233ba8a8cfbe9e7a5",
-    "/tic-tac-toe/main-es2015.bc1426bbaf1dcc1ba3c8.js": "7ac4d39a7e9e76949ff179ddc12e777635727e2e",
-    "/tic-tac-toe/main-es5.bc1426bbaf1dcc1ba3c8.js": "c5c6d8794e6fdd23a2a4736af21a76011fc1653c",
-    "/tic-tac-toe/manifest.webmanifest": "2e2f8086aeda5578eb98e8612693c262d312b633",
-    "/tic-tac-toe/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "/tic-tac-toe/polyfills-es5.9e286f6d9247438cbb02.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
-    "/tic-tac-toe/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/tic-tac-toe/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/tic-tac-toe/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/tic-tac-toe/index.html": "2230d8bd4b549b32db49e88184e20d1483642a44",
+    "/tic-tac-toe/main-es2015.9a7c705881050180f3b1.js": "02192564d6aae8af863d09dfc19cbd4c32948648",
+    "/tic-tac-toe/main-es5.9a7c705881050180f3b1.js": "419a515c2c6c2562693abd7b853324432d3628c4",
+    "/tic-tac-toe/manifest.webmanifest": "a402570bd9a1e91673e8d78bcd918942e179bae9",
+    "/tic-tac-toe/polyfills-es2015.95bb65e853d2781ac3bd.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/tic-tac-toe/polyfills-es5.341d48ffc88eaeae911d.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "/tic-tac-toe/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/tic-tac-toe/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/tic-tac-toe/styles.280e991c5992f8630bc9.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
