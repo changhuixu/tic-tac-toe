@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1594650399784,
+  "timestamp": 1605810372316,
   "index": "/tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -13,13 +13,13 @@
       "urls": [
         "/tic-tac-toe/favicon.ico",
         "/tic-tac-toe/index.html",
-        "/tic-tac-toe/main-es2015.9a7c705881050180f3b1.js",
-        "/tic-tac-toe/main-es5.9a7c705881050180f3b1.js",
+        "/tic-tac-toe/main-es2015.123d85e50635355be795.js",
+        "/tic-tac-toe/main-es5.123d85e50635355be795.js",
         "/tic-tac-toe/manifest.webmanifest",
-        "/tic-tac-toe/polyfills-es2015.95bb65e853d2781ac3bd.js",
-        "/tic-tac-toe/polyfills-es5.341d48ffc88eaeae911d.js",
-        "/tic-tac-toe/runtime-es2015.409e6590615fb48d139f.js",
-        "/tic-tac-toe/runtime-es5.409e6590615fb48d139f.js",
+        "/tic-tac-toe/polyfills-es2015.8efe633f8934637015d4.js",
+        "/tic-tac-toe/polyfills-es5.7d306c69cd53c603c407.js",
+        "/tic-tac-toe/runtime-es2015.681bd8a4edb177c86959.js",
+        "/tic-tac-toe/runtime-es5.681bd8a4edb177c86959.js",
         "/tic-tac-toe/styles.280e991c5992f8630bc9.css"
       ],
       "patterns": []
@@ -65,14 +65,14 @@
     "/tic-tac-toe/assets/touch-icon-iphone-retina.png": "6c4cb6a554cd47079450fb6b86d56a5097199a90",
     "/tic-tac-toe/assets/touch-icon-iphone.png": "202f4c6870d26aa503421ccf176fcd9deb9e2800",
     "/tic-tac-toe/favicon.ico": "0e8d929f2742d5c17cedca7f23358794f30be9b4",
-    "/tic-tac-toe/index.html": "2230d8bd4b549b32db49e88184e20d1483642a44",
-    "/tic-tac-toe/main-es2015.9a7c705881050180f3b1.js": "02192564d6aae8af863d09dfc19cbd4c32948648",
-    "/tic-tac-toe/main-es5.9a7c705881050180f3b1.js": "419a515c2c6c2562693abd7b853324432d3628c4",
+    "/tic-tac-toe/index.html": "601a86a6aa813db093a8bbc87bb4c6424cbcf942",
+    "/tic-tac-toe/main-es2015.123d85e50635355be795.js": "c81eedc1caa3eaa11a3ee4b11b654f6596f4e1c9",
+    "/tic-tac-toe/main-es5.123d85e50635355be795.js": "ba10587c59ee9667c47998c84b8b687d81b22be3",
     "/tic-tac-toe/manifest.webmanifest": "a402570bd9a1e91673e8d78bcd918942e179bae9",
-    "/tic-tac-toe/polyfills-es2015.95bb65e853d2781ac3bd.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "/tic-tac-toe/polyfills-es5.341d48ffc88eaeae911d.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
-    "/tic-tac-toe/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/tic-tac-toe/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/tic-tac-toe/polyfills-es2015.8efe633f8934637015d4.js": "65c537467564ee0ba776b629f71ed3413413a7cb",
+    "/tic-tac-toe/polyfills-es5.7d306c69cd53c603c407.js": "214f4b46e6da9fadd1fae2439f1791ee1ad0f563",
+    "/tic-tac-toe/runtime-es2015.681bd8a4edb177c86959.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/tic-tac-toe/runtime-es5.681bd8a4edb177c86959.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/tic-tac-toe/styles.280e991c5992f8630bc9.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
@@ -92,5 +92,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }

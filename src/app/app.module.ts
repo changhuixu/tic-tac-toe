@@ -16,13 +16,13 @@ import { AiBoardComponent } from './ai-board/ai-board.component';
     RouterModule.forRoot([
       { path: 'turn-based', component: BoardComponent },
       { path: 'ai', component: AiBoardComponent },
-      { path: '**', redirectTo: '' }
+      { path: '**', redirectTo: '' },
     ]),
     ServiceWorkerModule.register('ngsw-worker.js', {
-      enabled: environment.production
-    })
+      enabled: environment.production,
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
