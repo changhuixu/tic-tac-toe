@@ -5,14 +5,14 @@ import { Piece } from 'src/app/models/piece';
 @Component({
   selector: 'app-ai-board',
   templateUrl: './ai-board.component.html',
-  styleUrls: ['./ai-board.component.css']
+  styleUrls: ['./ai-board.component.css'],
 })
 export class AiBoardComponent implements OnInit {
-  private currentPlayer: Piece;
+  private currentPlayer: Piece = Piece.EMPTY;
   private player: Piece = Piece.X;
-  gameOver: boolean;
-  board: Piece[][];
-  statusMessage: string;
+  gameOver: boolean = false;
+  board: Piece[][] = [];
+  statusMessage: string = '';
   aiLevelEasy = true;
 
   constructor(private readonly svc: TicTacToeService) {}
@@ -32,7 +32,7 @@ export class AiBoardComponent implements OnInit {
     this.board = [
       [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY],
       [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY],
-      [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY]
+      [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY],
     ];
 
     this.statusMessage = `Player ${this.currentPlayer}'s turn`;

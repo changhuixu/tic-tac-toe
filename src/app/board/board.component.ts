@@ -4,13 +4,13 @@ import { Piece } from '../models/piece';
 @Component({
   selector: 'app-board',
   templateUrl: './board.component.html',
-  styleUrls: ['./board.component.css']
+  styleUrls: ['./board.component.css'],
 })
 export class BoardComponent implements OnInit {
-  private currentPlayer: Piece;
-  gameOver: boolean;
-  board: Piece[][];
-  statusMessage: string;
+  private currentPlayer: Piece = Piece.EMPTY;
+  gameOver: boolean = false;
+  board: Piece[][] = [];
+  statusMessage: string = '';
 
   constructor() {}
 
@@ -22,7 +22,7 @@ export class BoardComponent implements OnInit {
     this.board = [
       [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY],
       [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY],
-      [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY]
+      [Piece.EMPTY, Piece.EMPTY, Piece.EMPTY],
     ];
     this.currentPlayer = Piece.X;
     this.gameOver = false;
@@ -47,7 +47,7 @@ export class BoardComponent implements OnInit {
   }
 
   isDraw(): boolean {
-    if (this.board.some(row => row.some(c => c === Piece.EMPTY))) {
+    if (this.board.some((row) => row.some((c) => c === Piece.EMPTY))) {
       return false;
     }
     return !this.isWin();
