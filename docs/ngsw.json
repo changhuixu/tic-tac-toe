@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621003693840,
+  "timestamp": 1624763745147,
   "index": "/tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,15 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+        "/tic-tac-toe/favicon.ico",
+        "/tic-tac-toe/index.html",
+        "/tic-tac-toe/main.e2bdbb4dd03f8bdabc44.js",
+        "/tic-tac-toe/manifest.webmanifest",
+        "/tic-tac-toe/polyfills.6548f4c3e1e7d780d82a.js",
+        "/tic-tac-toe/runtime.b22aeb27578642f156ca.js",
+        "/tic-tac-toe/styles.31d6cfe0d16ae931b73c.css"
+      ],
       "patterns": []
     },
     {
@@ -20,12 +28,47 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+        "/tic-tac-toe/assets/KidsCheering.mp3",
+        "/tic-tac-toe/assets/icons/icon-128x128.png",
+        "/tic-tac-toe/assets/icons/icon-144x144.png",
+        "/tic-tac-toe/assets/icons/icon-152x152.png",
+        "/tic-tac-toe/assets/icons/icon-192x192.png",
+        "/tic-tac-toe/assets/icons/icon-384x384.png",
+        "/tic-tac-toe/assets/icons/icon-512x512.png",
+        "/tic-tac-toe/assets/icons/icon-72x72.png",
+        "/tic-tac-toe/assets/icons/icon-96x96.png",
+        "/tic-tac-toe/assets/touch-icon-ipad-retina.png",
+        "/tic-tac-toe/assets/touch-icon-ipad.png",
+        "/tic-tac-toe/assets/touch-icon-iphone-retina.png",
+        "/tic-tac-toe/assets/touch-icon-iphone.png"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
-  "hashTable": {},
+  "hashTable": {
+    "/tic-tac-toe/assets/KidsCheering.mp3": "3d7838a89fef9fd854243743a4fd0b931aaff557",
+    "/tic-tac-toe/assets/icons/icon-128x128.png": "1e2b476bdae37adf38d165e5acbda6993108e5d8",
+    "/tic-tac-toe/assets/icons/icon-144x144.png": "b0e15237278e061321d350cebcc52da2c677cd03",
+    "/tic-tac-toe/assets/icons/icon-152x152.png": "2e3dbfadc58d1798e9e36c46dbee54d29abf9f0e",
+    "/tic-tac-toe/assets/icons/icon-192x192.png": "2bc0001d55b7ab893097031028d056612f852096",
+    "/tic-tac-toe/assets/icons/icon-384x384.png": "44da94f2e438522761a1167960e9a70622ab6f85",
+    "/tic-tac-toe/assets/icons/icon-512x512.png": "e65a254311c18e11d45eed2e6846a5b659316c94",
+    "/tic-tac-toe/assets/icons/icon-72x72.png": "74cfb2e847cb3fc42340e9de700226375bad79ae",
+    "/tic-tac-toe/assets/icons/icon-96x96.png": "f0b74554e83a99be725fb3ee018db6288c0e58e3",
+    "/tic-tac-toe/assets/touch-icon-ipad-retina.png": "2c7511946909c23b3f6867b404e32d8b3e9dd71f",
+    "/tic-tac-toe/assets/touch-icon-ipad.png": "2ce230ee8dd82934ab87573044bf5f1e3b9aea06",
+    "/tic-tac-toe/assets/touch-icon-iphone-retina.png": "6c4cb6a554cd47079450fb6b86d56a5097199a90",
+    "/tic-tac-toe/assets/touch-icon-iphone.png": "202f4c6870d26aa503421ccf176fcd9deb9e2800",
+    "/tic-tac-toe/favicon.ico": "0e8d929f2742d5c17cedca7f23358794f30be9b4",
+    "/tic-tac-toe/index.html": "5ed83865badf118731bdffa93f37bf083e0030d1",
+    "/tic-tac-toe/main.e2bdbb4dd03f8bdabc44.js": "d68db89609f30150f288cc2d91f787f7128db808",
+    "/tic-tac-toe/manifest.webmanifest": "ee35d244b847ec1aec7f1b96d45bd063c9a5c84d",
+    "/tic-tac-toe/polyfills.6548f4c3e1e7d780d82a.js": "ea2f209d3ed867300fc8d510b7e72355f0451ce9",
+    "/tic-tac-toe/runtime.b22aeb27578642f156ca.js": "ca5a05c72966367e4fe787c8700b95a7966cdac0",
+    "/tic-tac-toe/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
   "navigationUrls": [
     {
       "positive": true,
