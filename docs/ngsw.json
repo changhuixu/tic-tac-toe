@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1646145753131,
+  "timestamp": 1675633983087,
   "index": "/tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -13,9 +13,9 @@
       "urls": [
         "/tic-tac-toe/favicon.ico",
         "/tic-tac-toe/index.html",
-        "/tic-tac-toe/main.1bb72b217c6a4e15.js",
+        "/tic-tac-toe/main.1428aa435c9b22d7.js",
         "/tic-tac-toe/manifest.webmanifest",
-        "/tic-tac-toe/polyfills.1d0a377defa9ff33.js",
+        "/tic-tac-toe/polyfills.cfa42f45599793be.js",
         "/tic-tac-toe/runtime.1204ad1466b7fe2c.js",
         "/tic-tac-toe/styles.ef46db3751d8e999.css"
       ],
@@ -62,10 +62,10 @@
     "/tic-tac-toe/assets/touch-icon-iphone-retina.png": "6c4cb6a554cd47079450fb6b86d56a5097199a90",
     "/tic-tac-toe/assets/touch-icon-iphone.png": "202f4c6870d26aa503421ccf176fcd9deb9e2800",
     "/tic-tac-toe/favicon.ico": "0e8d929f2742d5c17cedca7f23358794f30be9b4",
-    "/tic-tac-toe/index.html": "f75e6c0717b0a05778b58ac3830d9f0cfdb5be6a",
-    "/tic-tac-toe/main.1bb72b217c6a4e15.js": "23f1b98231d41cabd3a13c31cce93736c4d1fc29",
+    "/tic-tac-toe/index.html": "da5b74ba517ea6ca37eb9f5a6f814e2aa4b8da68",
+    "/tic-tac-toe/main.1428aa435c9b22d7.js": "aae01ced46c43de909895ff62df533503859ac4b",
     "/tic-tac-toe/manifest.webmanifest": "ee35d244b847ec1aec7f1b96d45bd063c9a5c84d",
-    "/tic-tac-toe/polyfills.1d0a377defa9ff33.js": "c92f3bc940343b4f1c3d2b851cad918053634616",
+    "/tic-tac-toe/polyfills.cfa42f45599793be.js": "6e4e5ee4c73e021d428ad06d66e55ad5692493e4",
     "/tic-tac-toe/runtime.1204ad1466b7fe2c.js": "4ef74dfae3c0f5795b0c263f43e914c55b26a905",
     "/tic-tac-toe/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
